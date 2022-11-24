@@ -23,8 +23,8 @@ Apartado3y5()
 
 def Apartado4y5():
     print('-------------------------------------')  # separador
-    tuplavalores=['juan',9.95,False,'Madrid',15]
-    tuplavalores.reverse() #ordena la lista al revés porque no se puede ordenar por orden alfabético los números (APARTADO 5)
+    tuplavalores=('juan',9.95,False,'Madrid',15)
+    #no se puede ordenar la lista al revés porque (APARTADO 5)
     for t in tuplavalores:
         print(t)
     #tuplavalores.append(25.95) #Las tuplas no permiten añadir valores. Dará error
